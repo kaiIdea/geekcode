@@ -1,5 +1,7 @@
 package main.java.behavior.Observer.case2;
 
+import main.java.behavior.Observer.case1.PromotionService;
+
 import java.lang.reflect.Method;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -65,5 +67,13 @@ public class ObserverRegistry {
             }
         }
         return annotatedMethods;
+    }
+
+    public static void main(String[] args) {
+        ObserverRegistry observerRegistry = new ObserverRegistry();
+        PromotionService promotionService = new PromotionService();
+        observerRegistry.registry(promotionService);
+
+        observerRegistry.getMatchedObserverActions(promotionService);
     }
 }

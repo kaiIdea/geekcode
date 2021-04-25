@@ -1,0 +1,12 @@
+迭代器模式
+
+public interface Iterator<E>{
+
+    //边界判断
+    public boolean hasNext();
+    //计算下一个元素下标
+    void next();
+    //返回当前元素
+    E currItem();
+
+}
