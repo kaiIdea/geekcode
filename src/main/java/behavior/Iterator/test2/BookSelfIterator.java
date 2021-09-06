@@ -3,7 +3,7 @@ package main.java.behavior.Iterator.test2;
 /**
  * @Auther: GEEX1428
  * @Date: 2021/9/6 14:11
- * @Description:迭代器
+ * @Description:迭代器类
  */
 public class BookSelfIterator implements Iterator{
 
