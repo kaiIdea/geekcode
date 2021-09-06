@@ -1,4 +1,4 @@
-package main.java.behavior.Iterator;
+package main.java.behavior.Iterator.test1;
 
 import java.util.Arrays;
 import java.util.ConcurrentModificationException;

@@ -1,4 +1,4 @@
-package main.java.behavior.Iterator;
+package main.java.behavior.Iterator.test1;
 
 /**
  * @Auther: GEEX1428
